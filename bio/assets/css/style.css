@@ -14,7 +14,7 @@ body {
 }
 
 a {
-  color: #67b0d1;
+  color: #46B78C;
 }
 
 a:hover {
@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Back to top button
+# Botão inicio
 --------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
@@ -37,8 +37,8 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #67b0d1;
-  color: #fff;
+  background: #2C2C33;
+  color: #46B78C;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
 }
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Navigation Menu
+# Menu
 --------------------------------------------------------------*/
 /* Desktop Navigation */
 .nav-menu, .nav-menu * {
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# Hero 
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
@@ -381,24 +381,7 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-#hero .btn-get-started {
-  font-size: 36px;
-  display: inline-block;
-  padding: 4px 0;
-  border-radius: 50px;
-  transition: 0.3s ease-in-out;
-  margin: 10px;
-  width: 64px;
-  height: 64px;
-  text-align: center;
-  border: 2px solid #fff;
-  color: #fff;
-}
 
-#hero .btn-get-started:hover {
-  padding-top: 8px;
-  background: rgba(255, 255, 255, 0.15);
-}
 
 
 
@@ -429,7 +412,7 @@ align-items: left;
 }
 
 /*--------------------------------------------------------------
-# Sections General
+# Sections
 --------------------------------------------------------------*/
 section {
   padding: 60px 0;
@@ -516,7 +499,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# About
+# Bactérias
 --------------------------------------------------------------*/
 .bacteria {
   background: #2C2C33;
@@ -550,6 +533,7 @@ section {
   font-size: 34px;
   color: #ffffff;
   margin-bottom: 30px;
+  margin-top: 80px;
 }
 
 .bacteria .content p {
@@ -559,7 +543,7 @@ section {
 
 .bacteria .content .about-btn {
   display: inline-block;
-  background: #67b0d1;
+  background: #46B78C;
   padding: 6px 44px 8px 30px;
   color: #fff;
   border-radius: 50px;
@@ -575,7 +559,7 @@ section {
 }
 
 .bacteria .content .about-btn:hover {
-  background: #7bbad7;
+  background: #46B78C;
 }
 
 .bacteria .icon-boxes .icon-box {
@@ -584,7 +568,7 @@ section {
 
 .bacteria .icon-boxes .icon-box i {
   font-size: 40px;
-  color: #67b0d1;
+  color: #46B78C;
   margin-bottom: 10px;
 }
 
@@ -613,7 +597,7 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Services
+# Peste negra
 --------------------------------------------------------------*/
 .peste {
 
@@ -663,7 +647,7 @@ background-color: #46B78C;
 .peste .icon i {
   font-size: 48px;
   line-height: 1;
-  color: #67b0d1;
+  color: #2C2C33;
   transition: all 0.3s ease-in-out;
 }
 
@@ -692,7 +676,7 @@ background-color: #46B78C;
 }
 
 /*--------------------------------------------------------------
-# Counts
+# Contador
 --------------------------------------------------------------*/
 .dados
 {
@@ -747,8 +731,13 @@ background-color: #46B78C;
   color: #6e9fb4;
 }
 
+.dados .card {
+  text-align: center;
+  margin: auto;
+}
+
 /*--------------------------------------------------------------
-# Portfolio
+# Imagens
 --------------------------------------------------------------*/
 .portfolio p {
 
@@ -1005,7 +994,7 @@ background-color: #46B78C;
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #67b0d1;
+  background: #46B78C;
   color: #fff;
   text-decoration: none;
 }
@@ -1030,7 +1019,7 @@ background-color: #46B78C;
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #b5d9e9;
+  color: #46B78C;
   font-size: 18px;
   line-height: 1;
 }
@@ -1053,12 +1042,12 @@ background-color: #46B78C;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #a2cfe3;
+  color: #46B78C;
 }
 
 
 #footer .copyright {
-  border-top: 1px solid #385b6b;
+  border-top: 1px solid #46B78C;
   text-align: center;
   padding-top: 30px;
 }
@@ -1073,5 +1062,95 @@ background-color: #46B78C;
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
+  }
+}
+
+/*=========================================*/
+
+.btn btn-secondary {
+
+padding-top: 40px;
+
+}
+
+.btnInformacoes {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 15px auto;
+}
+
+#dadosCuriosidades {
+  color: white;
+}
+
+.botoes {
+  text-align: center;
+}
+
+.cardsBacterias {
+  margin: auto;
+}
+
+#carouselExampleCaptions{
+  
+  width: 10rem;
+  height: 5rem; 
+
+
+  margin-top: 2.5rem;
+  margin-bottom: 2.2rem;
+  margin-left: 6rem;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+
+}
+
+.carr>p{
+  color: white;
+  font-family: "Open Sans", sans-serif, arial; 
+  text-shadow: 2px 2px 5px black;
+  margin-bottom: 1.2rem ;
+  
+}
+
+.Yare>h2{
+  color: white;
+  font-family: "Open Sans", sans-serif;
+  margin-left: 6rem;
+  margin-top: 0rem;
+  margin-bottom: 5rem ;
+  font-size: 50px;
+}
+
+@media (min-width: 1100px){
+  #carouselExampleCaptions{
+    width: 30%;
+    height: 20%;
+
+    margin-top: 5%;
+    margin-bottom: 2.2%;
+    margin-left: 35%;
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+  }
+
+  .carr>p{
+    color: white;
+    font-family: "Open Sans", sans-serif, arial; 
+    text-shadow: 2px 2px 5px black;
+    margin-bottom: 1.2%;
+    
+  }
+  .Yare>h2{
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 2%;
+    margin-left: 44.75%;
+    margin-bottom: 5% ;
+    font-size: 50px;
   }
 }

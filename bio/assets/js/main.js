@@ -50,6 +50,11 @@
         }, 1500, 'easeInOutExpo');
       }
     }
+
+    $('[data-toggle="popover"]').popover()
+    $('.popover-dismiss').popover({
+      trigger: 'focus'
+    })
   });
 
   // Mobile Navigation
