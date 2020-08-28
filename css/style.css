@@ -55,4 +55,10 @@ nav {
 
 .coluna img { 
   width: 100%;
+  transition-property: width;
+  transition-duration: 1s;
+}
+
+.coluna img:hover{
+    width: 90%;
 }
